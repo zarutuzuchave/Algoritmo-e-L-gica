@@ -13,6 +13,6 @@ for _ in range(5):
     elif 17 <= numero <= 100:
         contador_entre_17_e_100 += 1
 
-print(f"Quantidade de números maiores que 100: {contador}")
+print(f"Quantidade de números maiores que 100: {contador}") 
 print(f"Quantidade de números menores que 17: {contador_menor_17}")
 print(f"Quantidade de números entre 17 e 100: {contador_entre_17_e_100}")
