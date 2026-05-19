@@ -1,8 +1,10 @@
 # Faça um algoritmo que leia 4 números e imprima o menor deles. Use apenas 2
 # variáveis no seu algoritmo
-numeros = []
-for i in range(4):
-    num = float(input(f"Digite o {i+1}º número: "))
-    numeros.append(num)
 
-print(f"O menor número é: {min(numeros)}")
+num = int(input("Digite o 1º número: "))
+menor = num
+for i in range(2, 5):
+    num = int(input(f"Digite o {i}º número: "))
+    if num < menor:
+        menor = num
+print(fO menor número é: {menor}")
