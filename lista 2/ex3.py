@@ -7,4 +7,4 @@ for i in range(2, 5):
     num = int(input(f"Digite o {i}º número: "))
     if num < menor:
         menor = num
-print(fO menor número é: {menor}")
+print(f"O menor número é: {menor}")
