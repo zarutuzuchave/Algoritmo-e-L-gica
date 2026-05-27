@@ -1,6 +1,7 @@
 number = [2,4,6]
 # for i in range(len(number)):
-#     print(number)
+#      number[i] = number[i] * 2
+# print(number)
 
 bicletas = ["trek","cannondale","redline","specialized"]
 # for bicicleta in bicletas:
