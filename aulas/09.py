@@ -28,7 +28,9 @@ while True:
 print(f"----------Itens no seu carrinho: ----------------")
 #len() mostra o tamanho da lista
 tamanho_carrinho = len(carrinho)
-for i in range(tamanho_carrinho):
+for i in range(tamanho_carrinho):#percorre pelo indice 
     print(f"Posição [{i}] --> Produto: {carrinho [i]}")
+
+
 
 
