@@ -7,3 +7,7 @@
 logica = [1,2,3,4,5,6,7,8,9,10]
 programacao = [1,2,3,15,13,12,11,8]
 ambas = []
+for alunos in logica:
+    if alunos in programacao:
+        ambas.append(alunos)
+print(ambas)
