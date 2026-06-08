@@ -3,14 +3,13 @@
 
 def verificar_numero(valor):
     if valor >= 0:
-        return 1   
+        return 1
     else:
-        return -1  
+        return -1
 
 numero = int(input("Digite um número inteiro: "))
-resultado = verificar_numero(numero)
 
-if resultado == 1:
+if verificar_numero(numero) == 1:
     print("O número é positivo.")
 else:
     print("O número é negativo.")
