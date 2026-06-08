@@ -5,18 +5,18 @@
 #   c. A quantidade de números ímpares;
 #   d. Quais são os números ímpares.
 
-number = [1,2,4,6,5,7]
+numero = [1,2,4,6,5,7]
 pares = 0
 numeros_pares = []
 impares = 0
 numeros_impar = []
-for i in range(len(number)):
-    if number[i] % 2 == 0:
+for i in range(len(numero)):
+    if numero[i] % 2 == 0:
         pares += 1
-        numeros_pares.append(number[i])
+        numeros_pares.append(numero[i])
     else:
         impares += 1
-        numeros_impar.append(number[i])
+        numeros_impar.append(numero[i])
 
 print(f"A quantidade de números pares: {pares}")
 print(f"Quais são os números pares: {numeros_pares}")
