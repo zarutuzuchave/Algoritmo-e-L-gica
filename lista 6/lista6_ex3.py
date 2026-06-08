@@ -4,10 +4,10 @@
 # matrículas dos alunos que cursam Linguagem de Programação em outra lista, no
 # máximo 8 alunos. Mostre o número de matrícula que aparece nas duas listas.
 
-logica = [1,2,3,4,5,6,7,8,9,10]
-programacao = [1,2,3,15,13,12,11,8]
+log = [1,2,3,4,5,6,7,8,9,10]
+prog = [1,2,3,15,13,12,11,8]
 ambas = []
-for alunos in logica:
-    if alunos in programacao:
+for alunos in log:
+    if alunos in prog:
         ambas.append(alunos)
 print(ambas)
