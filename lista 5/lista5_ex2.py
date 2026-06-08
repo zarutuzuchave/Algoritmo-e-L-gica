@@ -11,7 +11,6 @@
 # • Valores de depósito e saque não podem ser negativos
 
 
-# Simulador de Caixa Eletrônico
 
 def depositar(saldo, valor):
     if valor > 0:
@@ -35,8 +34,6 @@ def sacar(saldo, valor):
         print(f"Saque de R$ {valor} realizado com sucesso!")
     
     return saldo
-
-
 saldo = 0.0
 
 while True:
