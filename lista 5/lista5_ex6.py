@@ -4,11 +4,9 @@ def converter_tempo(segundos):
     minutos = (segundos % 3600) // 60
     segundos_restantes = segundos % 60
 
-    print(horas, "horas")
-    print(minutos, "minutos")
-    print(segundos_restantes, "segundos")
-
+    print(f"horas:{horas}")
+    print(f"minutos:{minutos}")
+    print(f"segundos:{segundos_restantes}")
 
 tempo = int(input("Digite o tempo em segundos: "))
-
 converter_tempo(tempo)

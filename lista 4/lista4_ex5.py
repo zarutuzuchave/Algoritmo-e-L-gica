@@ -4,13 +4,16 @@
 
 def numero_perfeito(n):
     soma = 0
+
     for i in range(1, n):
         if n % i == 0:
             soma += i
-    if soma == n:
-        return 1
-    else:
-        return 0
 
-valor = int(input("Digite um número: "))
-print(numero_perfeito(valor))
+    if soma == n:
+        print("Número perfeito")
+    else:
+        print("Não é um número perfeito")
+
+
+n = int(input("Digite um número: "))
+numero_perfeito(n)

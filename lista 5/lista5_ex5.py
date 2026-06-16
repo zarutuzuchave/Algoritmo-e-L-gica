@@ -2,7 +2,6 @@
 # imprima-os ordenados em ordem crescente. 
 
 def ordenar(a, b, c):
-
     if a > b:
         a, b = b, a
 
@@ -13,7 +12,6 @@ def ordenar(a, b, c):
         b, c = c, b
 
     print(a, b, c)
-
 
 n1 = int(input("Digite um número: "))
 n2 = int(input("Digite outro número: "))
